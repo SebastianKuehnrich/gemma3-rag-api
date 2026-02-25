@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+
+# Models (zu gross fuer Git - GB-grosse Dateien)
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+models/
+my_finetuned_gemma/
+
+# Database (wird per init_database.py neu erstellt)
+chroma_db/
+*.db
+*.sqlite3
+
+# Environment (NIEMALS committen - enthaelt Secrets)
+.env
+.env.local
+../.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+nul
+NUL
+
+# Logs
+*.log
+logs/
+
+# HuggingFace Cache
+.cache/
+.huggingface/
+
+# Gradio
+.gradio/
+flagged/
+
+# wandb (Experiment-Daten, zu gross und lokal)
+wandb/
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+
+# Build / Dist
+dist/
+build/
+*.egg-info/

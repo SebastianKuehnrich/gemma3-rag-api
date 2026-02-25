@@ -1,0 +1,28 @@
+# ===========================================================================
+#  Gemma RAG System - Dependencies
+# ===========================================================================
+
+# LLM & ML
+transformers>=4.48.0
+torch>=2.0.0
+accelerate>=0.20.0
+bitsandbytes>=0.41.0
+sentence-transformers>=2.5.0
+
+# Vector Database
+chromadb>=0.4.0
+
+# Web Framework
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+
+# ML Demo UI
+gradio>=4.19.0
+
+# Validation & Settings
+pydantic>=2.6.0
+pydantic-settings>=2.1.0
+
+# Utilities
+python-multipart>=0.0.9
+requests>=2.31.0

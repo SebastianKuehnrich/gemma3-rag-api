@@ -1,0 +1,54 @@
+{
+  "documents": [
+    {
+      "question": "Was ist Machine Learning?",
+      "answer": "Machine Learning ist ein Teilbereich der kuenstlichen Intelligenz, bei dem Computersysteme aus Daten lernen, ohne explizit programmiert zu werden. Algorithmen erkennen Muster und treffen Vorhersagen basierend auf Trainingsdaten.",
+      "category": "basics"
+    },
+    {
+      "question": "Was ist der Unterschied zwischen supervised und unsupervised Learning?",
+      "answer": "Beim supervised Learning werden Modelle mit gelabelten Daten trainiert (Input-Output-Paare). Beim unsupervised Learning finden Algorithmen selbststaendig Strukturen in unlabeled Daten, z.B. durch Clustering.",
+      "category": "basics"
+    },
+    {
+      "question": "Was ist ein neuronales Netz?",
+      "answer": "Ein neuronales Netz ist ein Machine Learning Modell, inspiriert vom menschlichen Gehirn. Es besteht aus Schichten von Neuronen, die Informationen verarbeiten und durch Training optimiert werden.",
+      "category": "deep_learning"
+    },
+    {
+      "question": "Was bedeutet RAG (Retrieval Augmented Generation)?",
+      "answer": "RAG kombiniert Information Retrieval mit Text-Generierung. Relevante Dokumente werden aus einer Wissensdatenbank abgerufen und als Kontext fuer ein Sprachmodell verwendet, um praezisere und faktisch korrekte Antworten zu generieren.",
+      "category": "nlp"
+    },
+    {
+      "question": "Was ist ein Transformer-Modell?",
+      "answer": "Transformer sind die Architektur hinter modernen Sprachmodellen wie GPT und BERT. Sie nutzen Self-Attention-Mechanismen, um Beziehungen zwischen allen Woertern in einem Text parallel zu verarbeiten.",
+      "category": "nlp"
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Embeddings und One-Hot-Encoding?",
+      "answer": "One-Hot-Encoding erstellt binaere Vektoren ohne semantische Information. Embeddings sind dichte Vektoren, die semantische Aehnlichkeiten erfassen - aehnliche Woerter haben aehnliche Embedding-Vektoren.",
+      "category": "nlp"
+    },
+    {
+      "question": "Was ist ChromaDB?",
+      "answer": "ChromaDB ist eine Open-Source Vector Database, optimiert fuer Embeddings. Sie ermoeglicht schnelle semantische Suche durch Aehnlichkeitsvergleiche im hochdimensionalen Raum.",
+      "category": "tools"
+    },
+    {
+      "question": "Was ist FastAPI?",
+      "answer": "FastAPI ist ein modernes Python-Framework fuer Web-APIs. Es nutzt Type Hints fuer automatische Validierung, generiert OpenAPI-Dokumentation und unterstuetzt async/await fuer hohe Performance.",
+      "category": "tools"
+    },
+    {
+      "question": "Wofuer wird Gradio verwendet?",
+      "answer": "Gradio ist ein Python-Framework fuer ML-Demos und Interfaces. Es ermoeglicht schnelle Erstellung von Web-UIs fuer Machine Learning Modelle ohne Frontend-Kenntnisse.",
+      "category": "tools"
+    },
+    {
+      "question": "Was ist Fine-Tuning?",
+      "answer": "Fine-Tuning passt ein vortrainiertes Modell an eine spezifische Aufgabe an. Statt von Grund auf zu trainieren, werden nur die letzten Schichten oder Parameter mit task-spezifischen Daten optimiert.",
+      "category": "training"
+    }
+  ]
+}

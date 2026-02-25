@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+NUL
+nul
+
+# Secrets (ROOT .env - niemals committen)
+.env
+.env.local
+
+# Node
+node_modules/
+package-lock.json
+
+# Sonstige Root-Dateien die nicht zur Repo gehoeren
+*.zip
+wandb/
+.gradio/
+
+# Root Python-Dateien (nicht Teil der Deployment2 App)
+/main.py
+/api.py
+/diamond_rag.py
+/gold_kurs_faq.py
+/gradio_blocks.py
+/gradio_ui.py
+/hf_app.py
+/wandb_tracking.py
+/requirements.txt
+
+# Markdown Notizen (kein Teil des Produkts)
+ABSCHLUSSBERICHT.md
+Gemma_Implementation_Guide.md
+Gemma_Projektplan.md
+Gemma_UI_Deployment.md
+WOCHE4_*.md
+Woche4_*.md
+
+# Daten-Ordner im Root
+mein_vector_db/
+faq_database/
